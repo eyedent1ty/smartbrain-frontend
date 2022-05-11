@@ -1,13 +1,12 @@
 .tilt {
   height: 150px;
   width: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%);
 }
 
-.logo {
-  height: 100px;
-  width: 100px;
+.logo-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
