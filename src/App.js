@@ -1,7 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const App = function () {
-  return <h1>Hello World!</h1>;
-};
+import Navigation from './components/Navigation/Navigation';
+import Logo from './components/Logo/Logo';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Navigation />
+        <Logo />
+        {/* <ImageLinkForm />
+        <FaceRecognition /> */}
+      </div>
+    );
+  }
+}
 
 export default App;
